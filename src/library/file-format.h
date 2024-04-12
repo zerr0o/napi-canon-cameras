@@ -41,6 +41,7 @@ namespace CameraApi {
 
             Napi::Value Inspect(const Napi::CallbackInfo &info);
     };
+    const LabelMap& FileFormatLabels();
 }
 
 #endif //NAPI_CANON_CAMERAS_FILE_FORMAT_H

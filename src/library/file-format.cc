@@ -6,12 +6,12 @@ namespace CameraApi {
 
     const LabelMap &FileFormatLabels() {
         static const LabelMap map = {
-            {kEdsObjectFormat_Unknown, "Unknown"},
-            {kEdsObjectFormat_Jpeg, "JPEG"},
-            {kEdsObjectFormat_CR2, "CR2"},
-            {kEdsObjectFormat_CR3, "CR3"},
-            {kEdsObjectFormat_MP4, "MP4"},
-            {kEdsObjectFormat_HEIF_CODE, "HEIF_CODE"}
+            {0, "Unknown"},
+            {14337, "JPEG"},
+            {45315, "CR2"},
+            {45320, "CR3"},
+            {47490, "MP4"},
+            {45323, "HEIF_CODE"}
         };
         return map;
     }
